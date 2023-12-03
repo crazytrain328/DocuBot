@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<body>
+    <div class="container">
+        <header>
+            <h1>DocuBot Chatbot</h1>
+        </header>
+        <div class="upload-section">
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="file" name="pdf" accept="application/pdf">
+                <button type="submit">Upload PDF</button>
+            </form>
+        </div>
+        <div class="chat-section">
+            <form method="post">
+                {% csrf_token %}
+                <input type="text" name="query" placeholder="Ask a question...">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="response">
+            <p>{{ response }}</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+{% endblock content %}
