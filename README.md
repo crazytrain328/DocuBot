@@ -1,3 +1,5 @@
+!![Uploading DALL·E 2023-12-03 22.04.06 - Logo for 'DocuBot', a chatbot application. The logo should combine elements of a document or PDF icon with chat or conversation symbols, embodying the.png…]()
+
 # DocuBot
 <h3>DocuBot is an innovative chatbot application designed to process and analyze content from uploaded PDF files, <br/>
   leveraging GPT-4 for insightful and context-aware interactions. <br/>
