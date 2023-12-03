@@ -87,7 +87,5 @@ def home(request):
 
     return render(request, 'base/home.html', {'response': response})
 
-def process_response(response):
-    response_list= response.split('\n')
-    return response_list
+
     
