@@ -80,7 +80,7 @@ def home(request):
 
             if model and len(embeddings) > 0 and len(text_segments) > 0:
                 response = handle_query(query, model, embeddings, text_segments)
-                response= process_response(response)
+
                 
             else:
                 response = "Please upload a PDF first."
