@@ -4,7 +4,7 @@
   It offers a user-friendly interface for querying document-specific information, streamlining access to key insights and information.</h3>
 <br>
 
-![Screenshot (267)](https://github.com/crazytrain328/DocuBot/assets/Screenshot (267))
+![Screenshot (267)](https://github.com/crazytrain328/DocuBot/assets/Screenshot (267).png)
 
 <h2>To Run this Project </h2> 
 
