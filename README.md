@@ -1,5 +1,3 @@
-![alt text](https://drive.google.com/file/d/16MRR_O4CMQQAYuqDclLDQ6oFcUPPNVlC/view?usp=drive_link)
-
 # DocuBot
 <h3>DocuBot is an innovative chatbot application designed to process and analyze content from uploaded PDF files, <br/>
   leveraging GPT-4 for insightful and context-aware interactions. <br/>
