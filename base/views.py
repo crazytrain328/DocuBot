@@ -63,7 +63,6 @@ def home(request):
         if 'pdf' in request.FILES:
             pdf_file = request.FILES['pdf']
             raw_text = extract_text_from_pdf(pdf_file)
-            print(raw_text)
             processed_text = preprocess_text(raw_text)
             text_segments = processed_text.split('.')  # Splitting by sentences
 
@@ -80,12 +79,8 @@ def home(request):
 
             if model and len(embeddings) > 0 and len(text_segments) > 0:
                 response = handle_query(query, model, embeddings, text_segments)
-
                 
             else:
                 response = "Please upload a PDF first."
 
     return render(request, 'base/home.html', {'response': response})
-
-
-    
