@@ -3,7 +3,7 @@
   leveraging GPT-4 for insightful and context-aware interactions. <br/>
   It offers a user-friendly interface for querying document-specific information, streamlining access to key insights and information.</h3>
 <br>
-
+<img src="https://drive.google.com/file/d/1yjjMcbrD7NwLx4LfE7KciqJ5q6BYG6yG/view?usp=drive_link" border=0>
 
 <h2>To Run this Project </h2> 
 
@@ -20,21 +20,34 @@
    ```bash
    virtualenv env
    ```
-4) Create A New Django Project.
+4) Make sure you have Python and pip installed</br>
+   To Install Python:
+   ```bash
+   https://realpython.com/installing-python/
+   ```
+   To install pip:
+   ```bash
+   python get-pip.py
+   ```
+5) Install Django
+   ```bash
+   pip install django
+   ```
+6) Create A New Django Project.
    ```bash
    django-admin startproject DocuBot.
    ```
-5) Create a New App Base.
+7) Create a New App Base.
    ```bash
    django-admin startapp base
    ```
-5) Delete all the created files inside studybudd and copy and paste the Files in This repository.
-6) Copy the env folder inside studybudd folder.
-7) Change the working directory to studybudd
+8) Delete all the created files inside main DocuBot directory and copy and paste the Files in This repository.
+9) Copy the env folder inside main DocuBot folder.
+10) Change the working directory to DocuBot
    ```bash
       cd DocuBot
    ```  
-8) Activate the Virtual Environment.<br>
+11) Activate the Virtual Environment.<br>
    i) Windows
       ```bash
          env\scripts\activate
@@ -43,11 +56,11 @@
       ```bash
          source env\bin\activate
   
-9) Start the Server.
+12) Start the Server.
    ```bash
       python manage.py runserver
    ```
-10) Go to the below URL to run the project.
+13) Go to the below URL to run the project.
     ```bash
     http://127.0.0.1:8000/
     ```  
